@@ -1,0 +1,23 @@
+{
+  "name": "click-to-celebrate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
+  "types": "types.d.ts",
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-confetti": "1.9.2"
+  },
+  "devDependencies": {
+    "esbuild": "0.20.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
+}
