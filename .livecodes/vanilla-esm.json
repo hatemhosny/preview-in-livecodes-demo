@@ -3,13 +3,13 @@
   "activeEditor": "script",
   "markup": {
     "language": "html",
-    "content": "<link rel=\"stylesheet\" href=\"{{LC::TO_URL(./dist/styles.css)}}\">\n\n<div id=\"container\"></div>"
+    "content": "<link rel=\"stylesheet\" href=\"{{LC::TO_URL(./styles.css)}}\">\n\n<div id=\"container\"></div>"
   },
   "script": {
     "language": "javascript",
     "content": "import { createCelebrationButton } from 'click-to-celebrate';\n\nconst container = document.querySelector('#container');\ncreateCelebrationButton(container);\n"
   },
   "imports": {
-    "click-to-celebrate": "{{LC::TO_URL(./dist/index.js)}}"
+    "click-to-celebrate": "{{LC::TO_URL(./index.js)}}"
   }
 }
