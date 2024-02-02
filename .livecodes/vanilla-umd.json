@@ -1,0 +1,12 @@
+{
+  "title": "Vanilla/UMD demo",
+  "activeEditor": "script",
+  "markup": {
+    "language": "html",
+    "content": "<link rel=\"stylesheet\" href=\"{{LC::TO_DATA_URL(./dist/styles.css)}}\">\n<script src=\"{{LC::TO_DATA_URL(./dist/lib.umd.js)}}\"></script>\n<div id=\"container\"></div>"
+  },
+  "script": {
+    "language": "javascript",
+    "content": "const container = document.querySelector('#container');\nClickToCelebrate.createCelebrationButton(container);\n"
+  }
+}

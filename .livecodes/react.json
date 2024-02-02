@@ -1,0 +1,12 @@
+{
+  "title": "React demo",
+  "activeEditor": "script",
+  "script": {
+    "language": "jsx",
+    "content": "import React from 'react';\nimport ClickToCelebrate from 'click-to-celebrate/react';\nimport 'click-to-celebrate/styles.css';\n\nexport default () => <ClickToCelebrate />"
+  },
+  "imports": {
+    "click-to-celebrate/react": "{{LC::TO_DATA_URL(./dist/react.js)}}",
+    "click-to-celebrate/styles.css": "{{LC::TO_DATA_URL(./dist/styles.css)}}"
+  }
+}
