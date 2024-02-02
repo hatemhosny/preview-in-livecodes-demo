@@ -15,4 +15,4 @@ jobs:
         with:
           install-command: "npm install"
           build-command: "npm run build"
-          # base-url: "https://{{LC::REF}}.my-project.pages.dev"
+          base-url: "https://{{LC::REF}}.preview-in-livecodes-demo.pages.dev"

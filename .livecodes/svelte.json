@@ -6,7 +6,7 @@
     "content": "<script>\nimport { createCelebrationButton } from 'click-to-celebrate';\nimport 'click-to-celebrate/styles.css';\n</script>\n\n<div class=\"container\" use:createCelebrationButton></div>\n"
   },
   "imports": {
-    "click-to-celebrate": "{{LC::TO_DATA_URL(./dist/index.js)}}",
-    "click-to-celebrate/styles.css": "{{LC::TO_DATA_URL(./dist/styles.css)}}"
+    "click-to-celebrate": "{{LC::TO_URL(./dist/index.js)}}",
+    "click-to-celebrate/styles.css": "{{LC::TO_URL(./dist/styles.css)}}"
   }
 }
