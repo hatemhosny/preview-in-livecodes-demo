@@ -3,9 +3,9 @@
   "activeEditor": "script",
   "script": {
     "language": "svelte",
-    "content": "<script>\nimport { createCelebrationButton } from 'click-to-celebrate';\nimport '{{LC::TO_URL(./styles.css)}}';\n</script>\n\n<div class=\"container\" use:createCelebrationButton></div>\n"
+    "content": "<script>\nimport { createCelebrationButton } from 'click-to-celebrate';\nimport '{{LC::TO_DATA_URL(./dist/styles.css)}}';\n</script>\n\n<div class=\"container\" use:createCelebrationButton></div>\n"
   },
   "imports": {
-    "click-to-celebrate": "{{LC::TO_URL(./index.js)}}"
+    "click-to-celebrate": "{{LC::TO_DATA_URL(./dist/index.js)}}"
   }
 }

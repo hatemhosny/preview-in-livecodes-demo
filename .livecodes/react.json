@@ -3,9 +3,9 @@
   "activeEditor": "script",
   "script": {
     "language": "jsx",
-    "content": "import React from 'react';\nimport ClickToCelebrate from 'click-to-celebrate/react';\nimport '{{LC::TO_URL(./styles.css)}}';\n\nexport default () => <ClickToCelebrate />"
+    "content": "import React from 'react';\nimport ClickToCelebrate from 'click-to-celebrate/react';\nimport '{{LC::TO_DATA_URL(./dist/styles.css)}}';\n\nexport default () => <ClickToCelebrate />"
   },
   "imports": {
-    "click-to-celebrate/react": "{{LC::TO_URL(./react.js)}}"
+    "click-to-celebrate/react": "{{LC::TO_DATA_URL(./dist/react.js)}}"
   }
 }
