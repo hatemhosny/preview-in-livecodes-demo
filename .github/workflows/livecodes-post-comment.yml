@@ -16,6 +16,6 @@ jobs:
       github.event.workflow_run.conclusion == 'success'
 
     steps:
-      - uses: live-codes/pr-comment-from-artifact@v0.0.1-alpha
+      - uses: live-codes/pr-comment-from-artifact@v1
         with:
           GITHUB_TOKEN: ${{ github.token }}
