@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build and generate
-        uses: live-codes/preview-in-livecodes@v0.0.2-alpha
+        uses: live-codes/preview-in-livecodes@main
         with:
           install-command: "npm install"
           build-command: "npm run build"
